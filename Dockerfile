@@ -10,7 +10,7 @@ ENV PYTHONDONTWRITEBYTECODE=1
 ENV PYTHONUNBUFFERED=1
 
 # Install pip requirements
-COPY wiz.txt .
+COPY wizexercise.txt .
 COPY requirements.txt .
 RUN python -m pip install -r requirements.txt
 
